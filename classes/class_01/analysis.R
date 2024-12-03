@@ -3,7 +3,7 @@ library(ggplot2)
 library(dplyr)
 
 # Load dataset
-data <- read.csv("dataset.csv")
+data <- read.csv("/work/class_01/dataset.csv")
 
 # Perform a simple analysis
 summary <- data %>% summarize(mean_value = mean(variable, na.rm = TRUE))
